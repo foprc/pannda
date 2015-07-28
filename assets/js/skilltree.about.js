@@ -1,5 +1,5 @@
-(function($){
-    $(function(){
+(function($) {
+    $(function() {
         var skilldata = {
             labels: ["Javscript", "HTML", "CSS", "Node.js", "Photoshop", "Photography"],
             datasets: [{

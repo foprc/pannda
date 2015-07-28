@@ -310,6 +310,7 @@ blockquote {
     margin: 1.75em 0 1.75em -2.2em;
     padding: 0 0 0 1.75em;
     border-left: #4A4A4A 0.4em solid;
+    background-color: rgba(1, 1, 1, 0.05);
 }
 
 blockquote p {
