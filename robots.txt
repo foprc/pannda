@@ -1,5 +1,3 @@
-User-agent: Swiftbot
-Disallow:
-
 User-agent: *
+Sitemap: http://pannda.io:80/sitemap.xml
 Disallow: /ghost/

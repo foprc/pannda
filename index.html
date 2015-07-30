@@ -11,11 +11,12 @@
 
     <link rel="shortcut icon" href="favicon.ico">
 
-    <link rel="stylesheet" type="text/css" href="assets/css/screen.css?v=0a9d1ec9d2">
+    <link rel="stylesheet" type="text/css" href="assets/css/screen.css?v=80e332cced">
     <link rel="stylesheet" type="text/css" href="http://fonts.useso.com/css?family=Merriweather:300,700,700italic,300italic%7COpen+Sans:700,400">
     <link rel="stylesheet" type="text/css" href="http://cdn.bootcss.com/highlight.js/8.0/styles/monokai_sublime.min.css">
 
     <link rel="canonical" href="http://pannda.io:80/">
+    <link rel="next" href="http://pannda.io:80/page/2/">
     
     <meta property="og:site_name" content="熊猫饼饼">
     <meta property="og:type" content="website">
@@ -84,10 +85,39 @@
 
     <div class="extra-pagination inner">
     <nav class="pagination" role="navigation">
-    <span class="page-number">Page 1 of 1</span>
+    <span class="page-number">Page 1 of 2</span>
+        <a class="older-posts" href="page/2/">Older Posts →</a>
 </nav>
 </div>
 
+<article class="post tag-python tag-flask">
+    <header class="post-header">
+        <h2 class="post-title"><a href="learning-flask-2/">flask 学习笔记（2）</a></h2>
+    </header>
+    <section class="post-excerpt">
+        <p>接上期，我们已经编写了如何保存评论的功能，今天我们来编写取出评论的代码： def load_data():     database = shelve.open(DATA_FILE)     greeting_list = database.get('greeting_list', [])     database.close()     return greeting_list 到这里，本次 guestbook 程序所需的两大函数都准备完毕，<a class="read-more" href="learning-flask-2/">...阅读更多</a></p>
+    </section>
+    <footer class="post-meta">
+        <img class="author-thumb" src="http://gravatar.com/avatar/fbf5c08ac37d40539acaead6fc1d6732?s=250&amp;d=mm&amp;r=x" alt="熊猫饼饼" nopin="nopin">
+        <span>熊猫饼饼</span>
+         on <a href="tag/python/">python</a>, <a href="tag/flask/">flask</a>
+        <time class="post-date" datetime="2015-02-05">2015-02-05</time>
+    </footer>
+</article>
+<article class="post tag-python tag-flask">
+    <header class="post-header">
+        <h2 class="post-title"><a href="learning-flask-1/">flask 学习笔记（1）</a></h2>
+    </header>
+    <section class="post-excerpt">
+        <p>Flask 是一个基于 Werkzeug 和   Jinja2 的 Web 应用框架，它能快速的开发 Web 应用程序。Flask 的核心非常小巧，通过 extension 可以增加它的各种功能。 开始动手前，需要进行一些事前准备，例如 python 的安装以及 virtualenv 和 virtualenvwrapper 的安装设置。（所有操作在<a class="read-more" href="learning-flask-1/">...阅读更多</a></p>
+    </section>
+    <footer class="post-meta">
+        <img class="author-thumb" src="http://gravatar.com/avatar/fbf5c08ac37d40539acaead6fc1d6732?s=250&amp;d=mm&amp;r=x" alt="熊猫饼饼" nopin="nopin">
+        <span>熊猫饼饼</span>
+         on <a href="tag/python/">python</a>, <a href="tag/flask/">flask</a>
+        <time class="post-date" datetime="2015-02-03">2015-02-03</time>
+    </footer>
+</article>
 <article class="post tag-life">
     <header class="post-header">
         <h2 class="post-title"><a href="goodbye-douban/">一次离别</a></h2>
@@ -139,23 +169,10 @@
         <time class="post-date" datetime="2013-09-23">2013-09-23</time>
     </footer>
 </article>
-<article class="post tag-javascript">
-    <header class="post-header">
-        <h2 class="post-title"><a href="chicken-and-rabbit/">鸡兔同笼</a></h2>
-    </header>
-    <section class="post-excerpt">
-        <p>鸡兔同笼问题是一类中国古代著名的算术问题。最早出现在南北朝时期的算书《孙子算经》（以下称作算经）下卷当中：   今有雉、兔同笼，上有三十五头，下九十四足。问雉、兔各几何？ 翻译现代汉语：   现在有鸡和兔子在同一个笼子里。从上面数一共有三十五个头，从下面数一共有九十四只脚，问一共有多少只鸡、多少只兔子？ 从题干分析，这是一次方程组问题。算经中解法如下：   上置三十五头，下置九十四足。半其足，得四十七。以少减多。 从这里可以看出，<a class="read-more" href="chicken-and-rabbit/">...阅读更多</a></p>
-    </section>
-    <footer class="post-meta">
-        <img class="author-thumb" src="http://gravatar.com/avatar/fbf5c08ac37d40539acaead6fc1d6732?s=250&amp;d=mm&amp;r=x" alt="熊猫饼饼" nopin="nopin">
-        <span>熊猫饼饼</span>
-         on <a href="tag/javascript/">javascript</a>
-        <time class="post-date" datetime="2013-07-15">2013-07-15</time>
-    </footer>
-</article>
 
 <nav class="pagination" role="navigation">
-    <span class="page-number">Page 1 of 1</span>
+    <span class="page-number">Page 1 of 2</span>
+        <a class="older-posts" href="page/2/">Older Posts →</a>
 </nav>
 
 </main>
@@ -169,8 +186,8 @@
 
     
 
-    <script type="text/javascript" src="assets/js/jquery.fitvids.js?v=0a9d1ec9d2"></script>
-    <script type="text/javascript" src="assets/js/index.js?v=0a9d1ec9d2"></script>
+    <script type="text/javascript" src="assets/js/jquery.fitvids.js?v=80e332cced"></script>
+    <script type="text/javascript" src="assets/js/index.js?v=80e332cced"></script>
     <script>
         hljs.initHighlightingOnLoad();
     </script>
